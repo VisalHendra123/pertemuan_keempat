@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LuasActivity">
+
+    <TextView
+        android:id="@+id/txtJudul3"
+        android:layout_width="306dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="175dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="178dp"
+        android:text="Hasil Perhitungan Volume"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtJari"
+        android:layout_width="243dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="85dp"
+        android:layout_marginEnd="193dp"
+        android:text="Jari-Jari Silinder"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtJudul3" />
+
+    <TextView
+        android:id="@+id/txtTinggi"
+        android:layout_width="214dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="186dp"
+        android:text="Tinggi Silinder :"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtJari" />
+
+    <TextView
+        android:id="@+id/txtLuas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="86dp"
+        android:layout_marginTop="62dp"
+        android:layout_marginEnd="267dp"
+        android:text="Volume Silinder :"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtTinggi" />
+</androidx.constraintlayout.widget.ConstraintLayout>
